@@ -2,8 +2,8 @@
 require_once "inc/home.php"
 ?>
 
-<img src="inc/api.php?show=body&side=front&file_name=<?php echo $uuid  ?>" />  
-<img src="inc/api.php?show=body&side=back&file_name=<?php echo $uuid  ?>" />  
+<img src="inc/api-skins.php?show=body&side=front&file_name=<?php echo $uuid  ?>" />
+<img src="inc/api-skins.php?show=body&side=back&file_name=<?php echo $uuid  ?>" />
 <h3><?php echo $playername  ?></h3>
 <form action="inc/update.php" method="post"  enctype="multipart/form-data">
 <input type="text" class="form-control" placeholder="Username" value="" name="new_username" id="username">
